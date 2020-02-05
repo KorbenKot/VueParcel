@@ -10,10 +10,9 @@
 </template>
 
 <script>
-    export default {
-        name: 'About',
-        mounted: function () {
-            console.log('about mounted!');
-        }
-    }
+export default {
+    mounted() {
+        console.log('about mounted!');
+    },
+};
 </script>
